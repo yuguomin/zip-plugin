@@ -1,0 +1,22 @@
+{
+  "name": "zip-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./plugins/zip-webpack-plugin.js",
+  "scripts": {
+    "build": "node ./test"
+  },
+  "keywords": [],
+  "author": "YGM",
+  "license": "ISC",
+  "devDependencies": {
+    "glob-all": "^3.1.0",
+    "mocha": "^7.0.1",
+    "rimraf": "^3.0.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "jszip": "^3.2.2"
+  }
+}

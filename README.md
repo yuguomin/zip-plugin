@@ -1,4 +1,4 @@
-# zip-plugin
+# zip-plugin [![Build Status](https://travis-ci.org/yuguomin/zip-plugin.svg?branch=master)](https://travis-ci.org/yuguomin/zip-plugin)
 Used for webpack, his plugin packages all the bundle files into a single zip file.
 
 # how to use

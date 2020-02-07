@@ -1,5 +1,5 @@
 const path = require('path');
-const ZipWebpackPlugin = require('./plugins/zip-webpack-plugin');
+const ZipWebpackPlugin = require('./plugins/zip-plugin');
 
 module.exports = {
   entry: {

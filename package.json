@@ -2,11 +2,11 @@
   "name": "zip-plugin",
   "version": "1.0.0",
   "description": "",
-  "main": "./plugins/zip-webpack-plugin.js",
+  "main": "./plugins/zip-plugin.js",
   "scripts": {
-    "build": "node ./test"
+    "test": "node ./test"
   },
-  "keywords": [],
+  "keywords": ["webpack", "plugin", "zip"],
   "author": "YGM",
   "license": "ISC",
   "devDependencies": {

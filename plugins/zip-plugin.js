@@ -2,13 +2,13 @@ const RawSource = require('webpack-sources').RawSource;
 const JSZip = require('jszip');
 const zip = new JSZip();
 
-module.exports = class ZipWebpackPlugin {
+module.exports = class ZipPlugin {
   constructor(options) {
     this.options = options;
   }
 
   apply(compiler) {
-    compiler.hooks.emit.tapAsync('ZipWebpackPlugin', (compilation, callback) => {
+    compiler.hooks.emit.tapAsync('ZipPlugin', (compilation, callback) => {
       const folder = zip.folder(this.options.filename);
 
       for (let filename in compilation.assets) {
